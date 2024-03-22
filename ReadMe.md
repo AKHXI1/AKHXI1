@@ -1,4 +1,4 @@
-# hi 🤘,Akhil here
+# Hi 🤘,Akhil here
 I AM CURRENTLY STUDYING<br>
 
 
