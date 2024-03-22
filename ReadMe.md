@@ -1,4 +1,4 @@
-# 💫 About Me:
+# hi 🤘,Akhil here
 I AM CURRENTLY STUDYING<br>
 
 
