@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=AKHXI1&icon=2&color=9" alt="Visit Count"></a>
+  <img src="https://komarev.com/ghpvc/?username=AKHXI1&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
 </p>
 
 ---
