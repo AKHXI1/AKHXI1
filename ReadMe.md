@@ -44,15 +44,18 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
+  <!-- Temporarily hidden due to Vercel server downtime
   <img src="https://github-readme-stats.vercel.app/api?username=AKHXI1&theme=blueberry&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%">
+  -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AKHXI1&theme=blueberry&hide_border=false" alt="GitHub Streak" width="48%">
 </p>
 
+<!-- Temporarily hidden due to Vercel server downtime
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKHXI1&theme=blueberry&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="48%">
   <img src="https://github-profile-trophy.vercel.app/?username=AKHXI1&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" width="48%">
 </p>
-
+-->
 ---
 
 ## ☕ Support My Work
