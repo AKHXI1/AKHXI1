@@ -2,9 +2,9 @@
 
 # Hi, I'm Akhil Sabu 👋
 
-**Developer · UI/UX Designer · Creative Technologist**
+**Odoo ERP Developer · Full-Stack Developer · Graphic Designer**
 
-*Building web apps, browser extensions, and clean digital experiences where logic meets design.*
+*Engineering Odoo ERP business workflows, full-stack web apps, and visual brand experiences.*
 
 <p>
   <a href="https://linkedin.com/in/akhxi1"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -24,10 +24,18 @@
 
 ## 🚀 About Me
 
-- 🔭 **Currently building:** Interactive web applications with **React + Vite + Firebase** and browser extensions like **VerseLens** for Spotify Web Player.
-- 🎨 **What I love:** Blending engineering with visual storytelling across **full-stack web development, UI/UX design, and video editing**.
-- 💡 **Exploring:** Practical product engineering, real-time web apps, and developer/productivity tools.
-- 📫 **Reach me at:** [akhilsabu2052003@gmail.com](mailto:akhilsabu2052003@gmail.com)
+- 💼 **Currently working in ERP:** Building and customizing **Odoo ERP** solutions (`Python`, `PostgreSQL`, `XML`, `QWeb`) to streamline business operations and reporting.
+- 💻 **Full-Stack Development:** Creating web apps and browser tools with **React, Vite, Node.js, Express, MongoDB, Firebase**, and **Manifest V3 Chrome Extensions**.
+- 🎨 **Graphic Design & Media:** Crafting brand identities, print/editorial layouts, UI/UX prototypes, and video content using **Photoshop, Illustrator, InDesign, Premiere Pro, Figma, and Canva**.
+- 📫 **Reach me at:** [akhilsabu2052003@gmail.com](mailto:akhilsabu2052003@gmail.com) · View design work on [Behance](https://behance.net/akhilsabu7)
+
+---
+
+## 🧩 What I Build
+
+- **Odoo ERP & Business Systems:** Custom Odoo module development, workflow automation, `QWeb` templates/reports, `XML` views, and `PostgreSQL`-backed integrations.
+- **Full-Stack Web & Extensions:** Responsive frontends (`React`, `Vite`), REST backends (`Node.js`, `Express`, `MongoDB`, `Firebase`), and browser extensions (`Chrome MV3`).
+- **Graphic Design & Visual Branding:** Logos, marketing collateral, multi-page print layouts (`InDesign`), UI/UX systems (`Figma`), and motion/video edits (`Premiere Pro`) — see my portfolio on **[Behance](https://behance.net/akhilsabu7)**.
 
 ---
 
@@ -38,13 +46,21 @@
 | **[VerseLens](https://github.com/AKHXI1/spotify-lyrics-translater)** | Manifest V3 Chrome extension & Spicetify script showing line-by-line translated lyric meanings and Romanized phonetics on Spotify Web Player | JavaScript, Chrome MV3, HTML, CSS | [Repo](https://github.com/AKHXI1/spotify-lyrics-translater) |
 | **[Interactive Wedding Invite](https://github.com/AKHXI1/wedding-invitation-)** | Modern, responsive digital wedding invitation web app deployed on Vercel | React 19, Vite, Firebase, CSS3 | [Live](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-) |
 | **[JourneySync](https://github.com/AKHXI1/journeySync)** | Multi-page travel & bus reservation platform with user booking flows and admin management dashboards | HTML5, CSS3, JavaScript | [Live](https://akhxi1.github.io/journeySync/login.html) · [Repo](https://github.com/AKHXI1/journeySync) |
-| **[Fraxal NFT Platform](https://github.com/AKHXI1/fraxal_NFT-Platform)** | Decentralized NFT marketplace exploring fractional ownership via smart contracts | Solidity, Hardhat, JavaScript | [Repo](https://github.com/AKHXI1/fraxal_NFT-Platform) |
-| **[Family Tree](https://github.com/AKHXI1/family-tree)** | Full-stack web app with backend routing, models, and middleware for managing family trees | Node.js, Express, JS/HTML/CSS | [Repo](https://github.com/AKHXI1/family-tree) |
 | **[BDA Call Tracker](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)** | Lightweight browser tool for Business Development Associates to log call outcomes and follow-ups | HTML5, CSS3, JavaScript | [Live](https://akhxi1.github.io/call-tracker-for-Buisness-development-associates/) · [Repo](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates) |
 
 ---
 
 ## 💻 Tech Stack & Tools
+
+**ERP & Backend**  
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![XML](https://img.shields.io/badge/XML%20%2F%20QWeb-005FAD?style=for-the-badge&logo=xml&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 **Frontend & Browser Extensions**  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -52,26 +68,21 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Google Chrome](https://img.shields.io/badge/Chrome_Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
-
-**Backend, Cloud & Web3**  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-**Languages & Scripting**  
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+**Graphic Design & Media**  
+![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
+![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-FF3366?style=for-the-badge&logo=adobeindesign&logoColor=white)
+![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+
+**Systems & Scripting**  
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-
-**Design & Media**  
-![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-![Adobe](https://img.shields.io/badge/Adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white)
 
 ---
 
