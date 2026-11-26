@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="100%" role="img" aria-label="Profile Footer Banner">
+  <defs>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#242938"/>
+      <stop offset="55%" stop-color="#714B67"/>
+      <stop offset="100%" stop-color="#242938"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,28 C260,68 480,0 760,34 C960,58 1090,14 1200,26 L1200,90 L0,90 Z" fill="url(#footerGrad)" fill-opacity="0.92"/>
+  <path d="M0,48 C300,12 580,74 880,38 C1040,20 1130,44 1200,36 L1200,90 L0,90 Z" fill="#191d2b" fill-opacity="0.55"/>
+  <text x="600" y="70" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.2" fill="#d8dee9">AKHIL SABU  ·  ODOO ERP  ·  FULL-STACK  ·  GRAPHIC DESIGN</text>
+</svg>

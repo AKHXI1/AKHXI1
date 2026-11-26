@@ -1,10 +1,8 @@
 <div align="center">
 
-# Hi, I'm Akhil Sabu 👋
+<img src="./assets/hero-banner.svg" alt="Akhil Sabu — Odoo ERP Developer, Full-Stack Developer, Graphic Designer" width="100%">
 
-**Odoo ERP Developer · Full-Stack Developer · Graphic Designer**
-
-*Engineering Odoo ERP business workflows, full-stack web apps, and visual brand experiences.*
+<br><br>
 
 <p>
   <a href="https://linkedin.com/in/akhxi1"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -15,31 +13,37 @@
 </p>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=AKHXI1&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=AKHXI1&color=714B67&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
 </p>
 
 </div>
 
 ---
 
+## 🧩 What I Do
+
+<div align="center">
+  <img src="./assets/role-odoo.svg" alt="Odoo ERP Developer — Custom Module Development" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/role-pillars.svg" alt="Full-Stack Developer and Graphic Designer" width="100%">
+</div>
+
+---
+
 ## 🚀 About Me
 
-- 💼 **Currently working in ERP:** Building and customizing **Odoo ERP** solutions (`Python`, `PostgreSQL`, `XML`, `QWeb`) to streamline business operations and reporting.
-- 💻 **Full-Stack Development:** Creating web apps and browser tools with **React, Vite, Node.js, Express, MongoDB, Firebase**, and **Manifest V3 Chrome Extensions**.
-- 🎨 **Graphic Design & Media:** Crafting brand identities, print/editorial layouts, UI/UX prototypes, and video content using **Photoshop, Illustrator, InDesign, Premiere Pro, Figma, and Canva**.
-- 📫 **Reach me at:** [akhilsabu2052003@gmail.com](mailto:akhilsabu2052003@gmail.com) · View design work on [Behance](https://behance.net/akhilsabu7)
+- 💼 **Odoo ERP Developer:** Customizing Odoo with **Python ORM**, **XML views**, **Security / ACL**, **Automated Actions**, **QWeb** reports, and **PostgreSQL**.
+- 💻 **Full-Stack Developer:** Building responsive web apps and extensions with **React, Vite, Node.js, Express, MongoDB, Firebase**, and **Chrome MV3**.
+- 🎨 **Graphic Designer:** Designing visual brand identities, print layouts, UI/UX prototypes, and video edits in **Photoshop, Illustrator, InDesign, Premiere Pro, Figma, and Canva** — see my portfolio on **[Behance](https://behance.net/akhilsabu7)**.
+- 📫 **Contact:** [akhilsabu2052003@gmail.com](mailto:akhilsabu2052003@gmail.com)
 
 ---
 
-## 🧩 What I Build
-
-- **Odoo ERP & Business Systems:** Custom Odoo module development, workflow automation, `QWeb` templates/reports, `XML` views, and `PostgreSQL`-backed integrations.
-- **Full-Stack Web & Extensions:** Responsive frontends (`React`, `Vite`), REST backends (`Node.js`, `Express`, `MongoDB`, `Firebase`), and browser extensions (`Chrome MV3`).
-- **Graphic Design & Visual Branding:** Logos, marketing collateral, multi-page print layouts (`InDesign`), UI/UX systems (`Figma`), and motion/video edits (`Premiere Pro`) — see my portfolio on **[Behance](https://behance.net/akhilsabu7)**.
-
----
-
-## 🛠️ Featured Projects
+## 🛠️ Featured Public Projects
 
 | Project | What It Does | Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -115,3 +119,7 @@ If you find my projects helpful or enjoy what I build, feel free to support my c
   <a href="https://www.buymeacoffee.com/akhilsabu26"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="BuyMeACoffee"></a>
   <a href="https://paypal.me/Akhxi1"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
+
+<div align="center">
+  <img src="./assets/footer-wave.svg" alt="Akhil Sabu — Odoo ERP, Full-Stack, Graphic Design" width="100%">
+</div>

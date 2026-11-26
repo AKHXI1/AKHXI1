@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 215" width="100%" role="img" aria-label="Full-Stack Developer and Graphic Designer Cards">
+  <defs>
+    <linearGradient id="fsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191d2b"/>
+      <stop offset="100%" stop-color="#22304d"/>
+    </linearGradient>
+    <linearGradient id="gdBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242938"/>
+      <stop offset="100%" stop-color="#4e2f4b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Card: Full-Stack Developer -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="584" height="211" rx="16" fill="url(#fsBg)" stroke="#82aaff" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="20" y="22" width="5" height="171" rx="2.5" fill="#82aaff"/>
+
+    <text x="40" y="48" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Full-Stack Developer</text>
+    <text x="40" y="78" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#cbd5e1">• Responsive frontends &amp; SPAs with React 19, Vite, HTML5, CSS3</text>
+    <text x="40" y="103" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#cbd5e1">• Node.js / Express backends with MongoDB &amp; Firebase auth/data</text>
+    <text x="40" y="128" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#cbd5e1">• Chrome MV3 browser extensions &amp; live Vercel / GH Pages apps</text>
+
+    <g transform="translate(40, 152)" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700">
+      <rect x="0" y="0" width="68" height="26" rx="6" fill="#141824" stroke="#82aaff" stroke-opacity="0.45"/>
+      <text x="34" y="17" text-anchor="middle" fill="#82aaff">React</text>
+
+      <rect x="76" y="0" width="76" height="26" rx="6" fill="#141824" stroke="#82aaff" stroke-opacity="0.45"/>
+      <text x="114" y="17" text-anchor="middle" fill="#82aaff">Node.js</text>
+
+      <rect x="160" y="0" width="84" height="26" rx="6" fill="#141824" stroke="#27e8a7" stroke-opacity="0.45"/>
+      <text x="202" y="17" text-anchor="middle" fill="#27e8a7">MongoDB</text>
+
+      <rect x="252" y="0" width="80" height="26" rx="6" fill="#141824" stroke="#27e8a7" stroke-opacity="0.45"/>
+      <text x="292" y="17" text-anchor="middle" fill="#27e8a7">Firebase</text>
+
+      <rect x="340" y="0" width="108" height="26" rx="6" fill="#141824" stroke="#82aaff" stroke-opacity="0.45"/>
+      <text x="394" y="17" text-anchor="middle" fill="#e2e8f0">Chrome MV3</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Graphic Designer -->
+  <g transform="translate(612, 0)">
+    <rect x="2" y="2" width="584" height="211" rx="16" fill="url(#gdBg)" stroke="#c792ea" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="20" y="22" width="5" height="171" rx="2.5" fill="#c792ea"/>
+
+    <text x="40" y="48" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Graphic Designer</text>
+    <text x="40" y="78" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#cbd5e1">• Visual branding, social campaigns &amp; vector illustration</text>
+    <text x="40" y="103" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#cbd5e1">• Print &amp; editorial layouts, UI/UX wireframes &amp; prototypes</text>
+    <text x="40" y="128" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#cbd5e1">• Video editing &amp; creative storytelling showcased on Behance</text>
+
+    <g transform="translate(40, 152)" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700">
+      <rect x="0" y="0" width="88" height="26" rx="6" fill="#1a1625" stroke="#c792ea" stroke-opacity="0.45"/>
+      <text x="44" y="17" text-anchor="middle" fill="#c792ea">Photoshop</text>
+
+      <rect x="96" y="0" width="88" height="26" rx="6" fill="#1a1625" stroke="#c792ea" stroke-opacity="0.45"/>
+      <text x="140" y="17" text-anchor="middle" fill="#c792ea">Illustrator</text>
+
+      <rect x="192" y="0" width="80" height="26" rx="6" fill="#1a1625" stroke="#c792ea" stroke-opacity="0.45"/>
+      <text x="232" y="17" text-anchor="middle" fill="#e2e8f0">InDesign</text>
+
+      <rect x="280" y="0" width="94" height="26" rx="6" fill="#1a1625" stroke="#27e8a7" stroke-opacity="0.45"/>
+      <text x="327" y="17" text-anchor="middle" fill="#27e8a7">Premiere</text>
+
+      <rect x="382" y="0" width="66" height="26" rx="6" fill="#1a1625" stroke="#82aaff" stroke-opacity="0.45"/>
+      <text x="415" y="17" text-anchor="middle" fill="#82aaff">Figma</text>
+
+      <rect x="456" y="0" width="66" height="26" rx="6" fill="#1a1625" stroke="#82aaff" stroke-opacity="0.45"/>
+      <text x="489" y="17" text-anchor="middle" fill="#82aaff">Canva</text>
+    </g>
+  </g>
+</svg>

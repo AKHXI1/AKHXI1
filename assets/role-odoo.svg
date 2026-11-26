@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 185" width="100%" role="img" aria-label="Odoo ERP Developer Experience Card">
+  <defs>
+    <linearGradient id="odooCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3c223b"/>
+      <stop offset="48%" stop-color="#714B67"/>
+      <stop offset="100%" stop-color="#242938"/>
+    </linearGradient>
+    <linearGradient id="odooBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27e8a7"/>
+      <stop offset="100%" stop-color="#82aaff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="181" rx="16" fill="url(#odooCardBg)" stroke="#c792ea" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="22" y="24" width="6" height="137" rx="3" fill="url(#odooBar)"/>
+
+  <!-- Title & Role Tag -->
+  <text x="46" y="50" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">Odoo ERP Developer</text>
+  <rect x="280" y="29" width="215" height="26" rx="13" fill="#191d2b" fill-opacity="0.55" stroke="#27e8a7" stroke-opacity="0.5"/>
+  <text x="387.5" y="46.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8" fill="#27e8a7">CUSTOM MODULE DEVELOPMENT</text>
+
+  <!-- Description Lines -->
+  <text x="46" y="84" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="15.5" fill="#f1f5f9">• Custom Odoo modules built with Python ORM models, business logic overrides, and PostgreSQL schemas.</text>
+  <text x="46" y="111" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="15.5" fill="#f1f5f9">• Tailored XML views, QWeb templates, Security / ACL record rules, and automated server actions.</text>
+
+  <!-- Tech Pills Row -->
+  <g transform="translate(46, 132)" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="700">
+    <rect x="0" y="0" width="108" height="28" rx="6" fill="#191d2b" fill-opacity="0.72" stroke="#c792ea" stroke-opacity="0.4"/>
+    <text x="54" y="18.5" text-anchor="middle" fill="#e2e8f0">Python ORM</text>
+
+    <rect x="118" y="0" width="96" height="28" rx="6" fill="#191d2b" fill-opacity="0.72" stroke="#c792ea" stroke-opacity="0.4"/>
+    <text x="166" y="18.5" text-anchor="middle" fill="#e2e8f0">XML Views</text>
+
+    <rect x="224" y="0" width="124" height="28" rx="6" fill="#191d2b" fill-opacity="0.72" stroke="#c792ea" stroke-opacity="0.4"/>
+    <text x="286" y="18.5" text-anchor="middle" fill="#e2e8f0">Security / ACL</text>
+
+    <rect x="358" y="0" width="150" height="28" rx="6" fill="#191d2b" fill-opacity="0.72" stroke="#c792ea" stroke-opacity="0.4"/>
+    <text x="433" y="18.5" text-anchor="middle" fill="#e2e8f0">Automated Actions</text>
+
+    <rect x="518" y="0" width="108" height="28" rx="6" fill="#191d2b" fill-opacity="0.72" stroke="#82aaff" stroke-opacity="0.45"/>
+    <text x="572" y="18.5" text-anchor="middle" fill="#82aaff">PostgreSQL</text>
+
+    <rect x="636" y="0" width="84" height="28" rx="6" fill="#191d2b" fill-opacity="0.72" stroke="#27e8a7" stroke-opacity="0.45"/>
+    <text x="678" y="18.5" text-anchor="middle" fill="#27e8a7">QWeb</text>
+  </g>
+</svg>
