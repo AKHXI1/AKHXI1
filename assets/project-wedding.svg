@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584 216" width="100%" role="img" aria-label="Interactive Wedding Invite Live Project Card">
+  <defs>
+    <linearGradient id="bgWed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191d2b"/>
+      <stop offset="52%" stop-color="#28233b"/>
+      <stop offset="100%" stop-color="#714B67"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="580" height="212" rx="16" fill="url(#bgWed)" stroke="#27e8a7" stroke-opacity="0.42" stroke-width="1.5"/>
+  <rect x="20" y="22" width="5" height="172" rx="2.5" fill="#27e8a7"/>
+
+  <!-- Header & Live Pill -->
+  <text x="40" y="48" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="21" font-weight="800" fill="#ffffff">Interactive Wedding Invite</text>
+  <rect x="424" y="26" width="140" height="26" rx="13" fill="#0f2924" stroke="#27e8a7" stroke-opacity="0.65"/>
+  <circle cx="442" cy="39" r="4" fill="#27e8a7"/>
+  <text x="500" y="43" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.6" fill="#27e8a7">LIVE SITE ↗</text>
+
+  <!-- Description -->
+  <text x="40" y="84" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#e2e8f0">Responsive digital wedding invitation experience built</text>
+  <text x="40" y="108" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#e2e8f0">with React 19, Vite, Firebase, and custom motion styling.</text>
+  <text x="40" y="132" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14.5" fill="#27e8a7">Click card to open live deployment on Vercel.</text>
+
+  <!-- Tech Pills -->
+  <g transform="translate(40, 158)" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700">
+    <rect x="0" y="0" width="82" height="26" rx="6" fill="#131722" stroke="#61dafb" stroke-opacity="0.45"/>
+    <text x="41" y="17" text-anchor="middle" fill="#61dafb">React 19</text>
+
+    <rect x="92" y="0" width="64" height="26" rx="6" fill="#131722" stroke="#82aaff" stroke-opacity="0.45"/>
+    <text x="124" y="17" text-anchor="middle" fill="#82aaff">Vite</text>
+
+    <rect x="166" y="0" width="84" height="26" rx="6" fill="#131722" stroke="#ffca28" stroke-opacity="0.45"/>
+    <text x="208" y="17" text-anchor="middle" fill="#ffca28">Firebase</text>
+
+    <rect x="260" y="0" width="76" height="26" rx="6" fill="#131722" stroke="#27e8a7" stroke-opacity="0.45"/>
+    <text x="298" y="17" text-anchor="middle" fill="#27e8a7">Vercel</text>
+  </g>
+</svg>

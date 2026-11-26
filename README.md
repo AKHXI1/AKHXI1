@@ -45,28 +45,50 @@
 
 ## 🛠️ Featured Public Projects
 
-| Project | What It Does | Stack | Links |
-| :--- | :--- | :--- | :--- |
-| **[VerseLens](https://github.com/AKHXI1/spotify-lyrics-translater)** | Manifest V3 Chrome extension & Spicetify script showing line-by-line translated lyric meanings and Romanized phonetics on Spotify Web Player | JavaScript, Chrome MV3, HTML, CSS | [Repo](https://github.com/AKHXI1/spotify-lyrics-translater) |
-| **[Interactive Wedding Invite](https://github.com/AKHXI1/wedding-invitation-)** | Modern, responsive digital wedding invitation web app deployed on Vercel | React 19, Vite, Firebase, CSS3 | [Live](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-) |
-| **[JourneySync](https://github.com/AKHXI1/journeySync)** | Multi-page travel & bus reservation platform with user booking flows and admin management dashboards | HTML5, CSS3, JavaScript | [Live](https://akhxi1.github.io/journeySync/login.html) · [Repo](https://github.com/AKHXI1/journeySync) |
-| **[BDA Call Tracker](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)** | Lightweight browser tool for Business Development Associates to log call outcomes and follow-ups | HTML5, CSS3, JavaScript | [Live](https://akhxi1.github.io/call-tracker-for-Buisness-development-associates/) · [Repo](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates) |
+<sub>Click any live card to open the deployed web app directly, or use the source pills below to inspect the code.</sub>
+
+<div align="center">
+
+<p>
+  <a href="https://github.com/AKHXI1/spotify-lyrics-translater"><img src="./assets/project-verselens.svg" alt="VerseLens — Chrome Extension Repo" width="49%"></a>
+  <a href="https://wedding-invitation-tan-seven.vercel.app"><img src="./assets/project-wedding.svg" alt="Interactive Wedding Invite — Live Site" width="49%"></a>
+</p>
+<p>
+  <a href="https://github.com/AKHXI1/spotify-lyrics-translater"><img src="https://img.shields.io/badge/VerseLens_%E2%80%94_GitHub_Repo-242938?style=flat-square&logo=github&logoColor=c792ea" alt="VerseLens GitHub Repo"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/AKHXI1/wedding-invitation-"><img src="https://img.shields.io/badge/Wedding_Invite_%E2%80%94_GitHub_Repo-242938?style=flat-square&logo=github&logoColor=27e8a7" alt="Wedding Invite GitHub Repo"></a>
+</p>
+
+<br>
+
+<p>
+  <a href="https://akhxi1.github.io/journeySync/login.html"><img src="./assets/project-journeysync.svg" alt="JourneySync — Live Site" width="49%"></a>
+  <a href="https://akhxi1.github.io/call-tracker-for-Buisness-development-associates/"><img src="./assets/project-bda.svg" alt="BDA Call Tracker — Live Site" width="49%"></a>
+</p>
+<p>
+  <a href="https://github.com/AKHXI1/journeySync"><img src="https://img.shields.io/badge/JourneySync_%E2%80%94_GitHub_Repo-242938?style=flat-square&logo=github&logoColor=82aaff" alt="JourneySync GitHub Repo"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates"><img src="https://img.shields.io/badge/BDA_Call_Tracker_%E2%80%94_GitHub_Repo-242938?style=flat-square&logo=github&logoColor=27e8a7" alt="BDA Call Tracker GitHub Repo"></a>
+</p>
+
+</div>
 
 ---
 
 ## 🔄 Recently Updated Repositories
 
-<sub>Auto-updated daily via GitHub Actions whenever public repositories receive new pushes.</sub>
-
 <!-- RECENT_REPOS:START -->
-| Repository | Description | Language | Updated | Links |
-| :--- | :--- | :--- | :--- | :--- |
-| **[wedding-invitation-](https://github.com/AKHXI1/wedding-invitation-)** | — | CSS | 2026-11-26 | [Live](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-) |
-| **[spotify-lyrics-translater](https://github.com/AKHXI1/spotify-lyrics-translater)** | — | JavaScript | 2026-10-26 | [Repo](https://github.com/AKHXI1/spotify-lyrics-translater) |
-| **[call-tracker-for-Buisness-development-associates](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)** | call tracker for Buisness development associates to mark there calls ,positives, neutrals, not interested & followups | HTML | 2025-08-26 | [Repo](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates) |
-| **[make-buisness-online](https://github.com/AKHXI1/make-buisness-online)** | — | CSS | 2025-08-22 | [Repo](https://github.com/AKHXI1/make-buisness-online) |
-| **[kerala-tourism-website](https://github.com/AKHXI1/kerala-tourism-website)** | basics of HTML & CSS | HTML | 2025-08-22 | [Repo](https://github.com/AKHXI1/kerala-tourism-website) |
-| **[mainproject-ideas](https://github.com/AKHXI1/mainproject-ideas)** | — | — | 2024-07-25 | [Repo](https://github.com/AKHXI1/mainproject-ideas) |
+<details>
+<summary><strong>View 6 most recently updated public repositories (auto-synced daily)</strong></summary>
+
+- **[wedding-invitation-](https://wedding-invitation-tan-seven.vercel.app)** (`CSS` · updated `2026-11-26`) · [Live Demo](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-)
+- **[spotify-lyrics-translater](https://github.com/AKHXI1/spotify-lyrics-translater)** (`JavaScript` · updated `2026-10-26`) · [Repo](https://github.com/AKHXI1/spotify-lyrics-translater)
+- **[call-tracker-for-Buisness-development-associates](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)** (`HTML` · updated `2025-08-26`) — call tracker for Buisness development associates to mark there calls ,positives, neutrals, not interested & followups · [Repo](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)
+- **[make-buisness-online](https://github.com/AKHXI1/make-buisness-online)** (`CSS` · updated `2025-08-22`) · [Repo](https://github.com/AKHXI1/make-buisness-online)
+- **[kerala-tourism-website](https://github.com/AKHXI1/kerala-tourism-website)** (`HTML` · updated `2025-08-22`) — basics of HTML & CSS · [Repo](https://github.com/AKHXI1/kerala-tourism-website)
+- **[mainproject-ideas](https://github.com/AKHXI1/mainproject-ideas)** (`Other` · updated `2024-07-25`) · [Repo](https://github.com/AKHXI1/mainproject-ideas)
+
+</details>
 <!-- RECENT_REPOS:END -->
 
 ---

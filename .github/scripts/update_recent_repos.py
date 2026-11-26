@@ -1,4 +1,4 @@
-"""Update the Recently Updated Repositories table in README.md."""
+"""Update the Recently Updated Repositories list in README.md."""
 
 from __future__ import annotations
 
@@ -55,38 +55,44 @@ def is_eligible(repo: dict) -> bool:
     return True
 
 
-def sanitize_cell(text: str | None, fallback: str = "—") -> str:
-    """Escape Markdown table characters and normalize whitespace."""
+def clean_text(text: str | None) -> str:
+    """Normalize whitespace in repository descriptions."""
     if not text:
-        return fallback
-    cleaned = " ".join(text.split()).replace("|", "\\|")
-    return cleaned if cleaned else fallback
+        return ""
+    return " ".join(text.split())
 
 
-def format_table(repos: list[dict]) -> str:
-    """Render the selected repositories as a Markdown table."""
+def format_list(repos: list[dict]) -> str:
+    """Render the selected repositories inside a clean collapsible Markdown list."""
     lines = [
-        "| Repository | Description | Language | Updated | Links |",
-        "| :--- | :--- | :--- | :--- | :--- |",
+        "<details>",
+        f"<summary><strong>View {len(repos)} most recently updated public repositories (auto-synced daily)</strong></summary>",
+        "",
     ]
     for repo in repos:
         name = repo["name"]
         url = repo["html_url"]
-        desc = sanitize_cell(repo.get("description"))
-        lang = sanitize_cell(repo.get("language"))
+        desc = clean_text(repo.get("description"))
+        lang = clean_text(repo.get("language")) or "Other"
         updated = (repo.get("pushed_at") or "")[:10] or "—"
         homepage = (repo.get("homepage") or "").strip()
 
         if homepage.startswith(("http://", "https://")):
-            links = f"[Live]({homepage}) · [Repo]({url})"
+            primary_link = f"**[{name}]({homepage})**"
+            extra_links = f"[Live Demo]({homepage}) · [Repo]({url})"
         else:
-            links = f"[Repo]({url})"
+            primary_link = f"**[{name}]({url})**"
+            extra_links = f"[Repo]({url})"
 
-        lines.append(f"| **[{name}]({url})** | {desc} | {lang} | {updated} | {links} |")
+        summary_part = f" — {desc}" if desc else ""
+        lines.append(f"- {primary_link} (`{lang}` · updated `{updated}`){summary_part} · {extra_links}")
+
+    lines.append("")
+    lines.append("</details>")
     return "\n".join(lines)
 
 
-def update_readme(table_md: str) -> bool:
+def update_readme(section_md: str) -> bool:
     """Replace the RECENT_REPOS block in README.md; return True if modified."""
     content = README_PATH.read_text(encoding="utf-8")
     pattern = re.compile(
@@ -96,7 +102,7 @@ def update_readme(table_md: str) -> bool:
     if not pattern.search(content):
         raise ValueError(f"Markers {START_MARKER} / {END_MARKER} not found in {README_PATH}")
 
-    replacement = f"{START_MARKER}\n{table_md}\n{END_MARKER}"
+    replacement = f"{START_MARKER}\n{section_md}\n{END_MARKER}"
     updated_content = pattern.sub(replacement, content, count=1)
     if updated_content == content:
         return False
@@ -108,8 +114,8 @@ def update_readme(table_md: str) -> bool:
 def main() -> None:
     repos = [r for r in fetch_repos(USERNAME) if is_eligible(r)]
     repos.sort(key=lambda r: r.get("pushed_at") or "", reverse=True)
-    table_md = format_table(repos[:MAX_REPOS])
-    changed = update_readme(table_md)
+    section_md = format_list(repos[:MAX_REPOS])
+    changed = update_readme(section_md)
     print(f"Processed {len(repos[:MAX_REPOS])} repositories. README changed: {changed}")
 
 
