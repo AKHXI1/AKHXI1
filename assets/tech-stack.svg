@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 508" width="100%" role="img" aria-label="Tech Stack and Tools Dashboard">
+  <defs>
+    <linearGradient id="panelErp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c1d30"/>
+      <stop offset="55%" stop-color="#242938"/>
+      <stop offset="100%" stop-color="#191d2b"/>
+    </linearGradient>
+    <linearGradient id="panelFe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b263d"/>
+      <stop offset="100%" stop-color="#191d2b"/>
+    </linearGradient>
+    <linearGradient id="panelGd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#36223a"/>
+      <stop offset="100%" stop-color="#1d2030"/>
+    </linearGradient>
+    <linearGradient id="panelSys" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b2e33"/>
+      <stop offset="100%" stop-color="#191d2b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== TOP LEFT: ERP & BACKEND ==================== -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="584" height="262" rx="16" fill="url(#panelErp)" stroke="#c792ea" stroke-opacity="0.32" stroke-width="1.5"/>
+    <rect x="22" y="22" width="4" height="20" rx="2" fill="#c792ea"/>
+    <text x="36" y="38" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="0.6" fill="#ffffff">ERP &amp; BACKEND</text>
+    <text x="566" y="37" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#c792ea">ODOO · APIS · DATA</text>
+    <line x1="22" y1="54" x2="566" y2="54" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- Row 1 -->
+    <g transform="translate(22, 68)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#c792ea" stroke-opacity="0.28"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#714B67"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#ffffff">O</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Odoo ERP</text>
+    </g>
+    <g transform="translate(302, 68)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#82aaff" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#3670A0"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffdd54">Py</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Python (ORM)</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(22, 114)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#82aaff" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#316192"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">Pg</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">PostgreSQL</text>
+    </g>
+    <g transform="translate(302, 114)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#82aaff" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#005FAD"/>
+      <text x="19" y="23" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="800" fill="#ffffff">&lt;/&gt;</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">XML / QWeb</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(22, 160)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#27e8a7" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#339933"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">Nj</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Node.js</text>
+    </g>
+    <g transform="translate(302, 160)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#ffffff" stroke-opacity="0.18"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#334155"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">Ex</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Express.js</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(22, 206)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#27e8a7" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#47A248"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">Mg</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">MongoDB</text>
+    </g>
+    <g transform="translate(302, 206)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#ffca28" stroke-opacity="0.28"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#FFCA28"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#111827">Fb</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Firebase</text>
+    </g>
+  </g>
+
+  <!-- ==================== TOP RIGHT: FRONTEND & EXTENSIONS ==================== -->
+  <g transform="translate(612, 0)">
+    <rect x="2" y="2" width="584" height="262" rx="16" fill="url(#panelFe)" stroke="#82aaff" stroke-opacity="0.32" stroke-width="1.5"/>
+    <rect x="22" y="22" width="4" height="20" rx="2" fill="#82aaff"/>
+    <text x="36" y="38" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="0.6" fill="#ffffff">FRONTEND &amp; EXTENSIONS</text>
+    <text x="566" y="37" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#82aaff">WEB · UI · DEPLOY</text>
+    <line x1="22" y1="54" x2="566" y2="54" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- Row 1 -->
+    <g transform="translate(22, 68)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#61dafb" stroke-opacity="0.28"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#20232A" stroke="#61DAFB" stroke-opacity="0.5"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#61DAFB">Re</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">React</text>
+    </g>
+    <g transform="translate(302, 68)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#82aaff" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#646CFF"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">Vt</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Vite</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(22, 114)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#f7df1e" stroke-opacity="0.28"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#F7DF1E"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#111827">JS</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">JavaScript (ES6+)</text>
+    </g>
+    <g transform="translate(302, 114)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#e34f26" stroke-opacity="0.28"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#E34F26"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">H5</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">HTML5</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(22, 160)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#1572b6" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#1572B6"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">C3</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">CSS3</text>
+    </g>
+    <g transform="translate(302, 160)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#ffffff" stroke-opacity="0.18"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.35"/>
+      <text x="19" y="23" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">▲</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Vercel</text>
+    </g>
+
+    <!-- Row 4 (Full Width) -->
+    <g transform="translate(22, 206)">
+      <rect x="0" y="0" width="544" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#4285f4" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#4285F4"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">Cr</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Chrome Extensions (Manifest V3)</text>
+      <text x="530" y="23.5" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#94a3b8">Browser Automation &amp; DOM UI</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM LEFT: GRAPHIC DESIGN & MEDIA ==================== -->
+  <g transform="translate(0, 288)">
+    <rect x="2" y="2" width="584" height="216" rx="16" fill="url(#panelGd)" stroke="#c792ea" stroke-opacity="0.32" stroke-width="1.5"/>
+    <rect x="22" y="22" width="4" height="20" rx="2" fill="#f472b6"/>
+    <text x="36" y="38" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="0.6" fill="#ffffff">GRAPHIC DESIGN &amp; MEDIA</text>
+    <text x="566" y="37" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#f472b6">BRAND · PRINT · UI/UX</text>
+    <line x1="22" y1="54" x2="566" y2="54" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- Row 1 -->
+    <g transform="translate(22, 68)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#31a8ff" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#001E36" stroke="#31A8FF"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#31A8FF">Ps</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Adobe Photoshop</text>
+    </g>
+    <g transform="translate(302, 68)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#ff9a00" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#330000" stroke="#FF9A00"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#FF9A00">Ai</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Adobe Illustrator</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(22, 114)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#ff3366" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#49021F" stroke="#FF3366"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#FF3366">Id</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Adobe InDesign</text>
+    </g>
+    <g transform="translate(302, 114)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#9999ff" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#00005B" stroke="#9999FF"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#9999FF">Pr</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Premiere Pro</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(22, 160)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#f24e1e" stroke-opacity="0.30"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#F24E1E"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#ffffff">Fg</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Figma</text>
+    </g>
+    <g transform="translate(302, 160)">
+      <rect x="0" y="0" width="264" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#00c4cc" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#00C4CC"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" font-weight="800" fill="#ffffff">Cv</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Canva</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM RIGHT: SYSTEMS & SCRIPTING ==================== -->
+  <g transform="translate(612, 288)">
+    <rect x="2" y="2" width="584" height="216" rx="16" fill="url(#panelSys)" stroke="#27e8a7" stroke-opacity="0.32" stroke-width="1.5"/>
+    <rect x="22" y="22" width="4" height="20" rx="2" fill="#27e8a7"/>
+    <text x="36" y="38" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="0.6" fill="#ffffff">SYSTEMS &amp; SCRIPTING</text>
+    <text x="566" y="37" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#27e8a7">CORE · CLI · AUTOMATION</text>
+    <line x1="22" y1="54" x2="566" y2="54" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- Row 1 -->
+    <g transform="translate(22, 68)">
+      <rect x="0" y="0" width="544" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#00599c" stroke-opacity="0.38"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#00599C"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff">C</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">C Language</text>
+      <text x="530" y="23.5" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#94a3b8">Systems, Scheduling &amp; OS Algorithms</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(22, 114)">
+      <rect x="0" y="0" width="544" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#27e8a7" stroke-opacity="0.25"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#2d333b" stroke="#94a3b8" stroke-opacity="0.4"/>
+      <text x="19" y="23" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="800" fill="#27e8a7">$_</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Shell Script (Bash)</text>
+      <text x="530" y="23.5" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#94a3b8">CLI Utilities &amp; Linux Tooling</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(22, 160)">
+      <rect x="0" y="0" width="544" height="38" rx="9" fill="#131722" fill-opacity="0.82" stroke="#5391fe" stroke-opacity="0.32"/>
+      <rect x="6" y="6" width="26" height="26" rx="6" fill="#5391FE"/>
+      <text x="19" y="23.5" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="800" fill="#ffffff">PS</text>
+      <text x="44" y="24" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">PowerShell</text>
+      <text x="530" y="23.5" text-anchor="end" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#94a3b8">Windows Installers &amp; Automation</text>
+    </g>
+  </g>
+</svg>
