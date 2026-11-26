@@ -1,0 +1,117 @@
+"""Update the Recently Updated Repositories table in README.md."""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+import urllib.request
+from pathlib import Path
+
+USERNAME = os.environ.get("GITHUB_USERNAME", "AKHXI1")
+MAX_REPOS = 6
+README_PATH = Path(__file__).resolve().parents[2] / "README.md"
+
+START_MARKER = "<!-- RECENT_REPOS:START -->"
+END_MARKER = "<!-- RECENT_REPOS:END -->"
+
+EXCLUDED_REPOS = {
+    "AKHXI1",
+    "AKHXI11",
+    "github-slideshow",
+    "intro-html",
+    "markdown-portfolio",
+    # Temporarily excluded until committed .env secrets are rotated/purged:
+    "journey-sync",
+    "family-tree",
+    "fraxal_NFT-Platform",
+}
+EXCLUDED_PREFIXES = ("skills-", "learningfest", "learning-fest")
+
+
+def fetch_repos(username: str) -> list[dict]:
+    """Fetch public repositories for a GitHub user sorted by most recent push."""
+    url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=pushed&direction=desc"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": f"{username}-profile-updater",
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def is_eligible(repo: dict) -> bool:
+    """Return True for active, non-fork, non-tutorial source repositories."""
+    name = repo.get("name", "")
+    if repo.get("fork") or repo.get("archived") or repo.get("size", 0) == 0:
+        return False
+    if name in EXCLUDED_REPOS or name.lower().startswith(EXCLUDED_PREFIXES):
+        return False
+    return True
+
+
+def sanitize_cell(text: str | None, fallback: str = "—") -> str:
+    """Escape Markdown table characters and normalize whitespace."""
+    if not text:
+        return fallback
+    cleaned = " ".join(text.split()).replace("|", "\\|")
+    return cleaned if cleaned else fallback
+
+
+def format_table(repos: list[dict]) -> str:
+    """Render the selected repositories as a Markdown table."""
+    lines = [
+        "| Repository | Description | Language | Updated | Links |",
+        "| :--- | :--- | :--- | :--- | :--- |",
+    ]
+    for repo in repos:
+        name = repo["name"]
+        url = repo["html_url"]
+        desc = sanitize_cell(repo.get("description"))
+        lang = sanitize_cell(repo.get("language"))
+        updated = (repo.get("pushed_at") or "")[:10] or "—"
+        homepage = (repo.get("homepage") or "").strip()
+
+        if homepage.startswith(("http://", "https://")):
+            links = f"[Live]({homepage}) · [Repo]({url})"
+        else:
+            links = f"[Repo]({url})"
+
+        lines.append(f"| **[{name}]({url})** | {desc} | {lang} | {updated} | {links} |")
+    return "\n".join(lines)
+
+
+def update_readme(table_md: str) -> bool:
+    """Replace the RECENT_REPOS block in README.md; return True if modified."""
+    content = README_PATH.read_text(encoding="utf-8")
+    pattern = re.compile(
+        rf"({re.escape(START_MARKER)})(.*?)({re.escape(END_MARKER)})",
+        flags=re.DOTALL,
+    )
+    if not pattern.search(content):
+        raise ValueError(f"Markers {START_MARKER} / {END_MARKER} not found in {README_PATH}")
+
+    replacement = f"{START_MARKER}\n{table_md}\n{END_MARKER}"
+    updated_content = pattern.sub(replacement, content, count=1)
+    if updated_content == content:
+        return False
+
+    README_PATH.write_text(updated_content, encoding="utf-8")
+    return True
+
+
+def main() -> None:
+    repos = [r for r in fetch_repos(USERNAME) if is_eligible(r)]
+    repos.sort(key=lambda r: r.get("pushed_at") or "", reverse=True)
+    table_md = format_table(repos[:MAX_REPOS])
+    changed = update_readme(table_md)
+    print(f"Processed {len(repos[:MAX_REPOS])} repositories. README changed: {changed}")
+
+
+if __name__ == "__main__":
+    main()

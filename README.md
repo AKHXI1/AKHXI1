@@ -54,6 +54,23 @@
 
 ---
 
+## 🔄 Recently Updated Repositories
+
+<sub>Auto-updated daily via GitHub Actions whenever public repositories receive new pushes.</sub>
+
+<!-- RECENT_REPOS:START -->
+| Repository | Description | Language | Updated | Links |
+| :--- | :--- | :--- | :--- | :--- |
+| **[wedding-invitation-](https://github.com/AKHXI1/wedding-invitation-)** | — | CSS | 2026-11-26 | [Live](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-) |
+| **[spotify-lyrics-translater](https://github.com/AKHXI1/spotify-lyrics-translater)** | — | JavaScript | 2026-10-26 | [Repo](https://github.com/AKHXI1/spotify-lyrics-translater) |
+| **[call-tracker-for-Buisness-development-associates](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)** | call tracker for Buisness development associates to mark there calls ,positives, neutrals, not interested & followups | HTML | 2025-08-26 | [Repo](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates) |
+| **[make-buisness-online](https://github.com/AKHXI1/make-buisness-online)** | — | CSS | 2025-08-22 | [Repo](https://github.com/AKHXI1/make-buisness-online) |
+| **[kerala-tourism-website](https://github.com/AKHXI1/kerala-tourism-website)** | basics of HTML & CSS | HTML | 2025-08-22 | [Repo](https://github.com/AKHXI1/kerala-tourism-website) |
+| **[mainproject-ideas](https://github.com/AKHXI1/mainproject-ideas)** | — | — | 2024-07-25 | [Repo](https://github.com/AKHXI1/mainproject-ideas) |
+<!-- RECENT_REPOS:END -->
+
+---
+
 ## 💻 Tech Stack & Tools
 
 <div align="center">
