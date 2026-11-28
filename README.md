@@ -81,10 +81,10 @@
 <details>
 <summary><strong>View 6 most recently updated public repositories (auto-synced daily)</strong></summary>
 
-- **[job-seeker](https://github.com/AKHXI1/job-seeker)** (`Python` · updated `2026-11-27`) · [Repo](https://github.com/AKHXI1/job-seeker)
-- **[portfolio](https://github.com/AKHXI1/portfolio)** (`TypeScript` · updated `2026-11-27`) · [Repo](https://github.com/AKHXI1/portfolio)
+- **[portfolio](https://github.com/AKHXI1/portfolio)** (`TypeScript` · updated `2026-11-28`) · [Repo](https://github.com/AKHXI1/portfolio)
+- **[PingHR](https://github.com/AKHXI1/PingHR)** (`Python` · updated `2026-11-28`) · [Repo](https://github.com/AKHXI1/PingHR)
+- **[wedding-invitation-](https://wedding-invitation-tan-seven.vercel.app)** (`CSS` · updated `2026-11-28`) · [Live Demo](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-)
 - **[Brio---your_pc_companion](https://github.com/AKHXI1/Brio---your_pc_companion)** (`JavaScript` · updated `2026-11-26`) · [Repo](https://github.com/AKHXI1/Brio---your_pc_companion)
-- **[wedding-invitation-](https://wedding-invitation-tan-seven.vercel.app)** (`CSS` · updated `2026-11-26`) · [Live Demo](https://wedding-invitation-tan-seven.vercel.app) · [Repo](https://github.com/AKHXI1/wedding-invitation-)
 - **[spotify-lyrics-translater](https://github.com/AKHXI1/spotify-lyrics-translater)** (`JavaScript` · updated `2026-10-26`) · [Repo](https://github.com/AKHXI1/spotify-lyrics-translater)
 - **[call-tracker-for-Buisness-development-associates](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)** (`HTML` · updated `2025-08-26`) — call tracker for Buisness development associates to mark there calls ,positives, neutrals, not interested & followups · [Repo](https://github.com/AKHXI1/call-tracker-for-Buisness-development-associates)
 
